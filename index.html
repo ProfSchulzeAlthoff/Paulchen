@@ -1,1 +1,101 @@
-Hallo Jan
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>Paulchens Pilztipps</title>
+  </head>
+  <body>
+  <div class='container'>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Paulchens Pilztipps</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" href="#">Pilz-Facts<span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="karte.html">Pilz-Karte</a>
+		  </li>
+		</div>
+	</nav>
+	<h3>Willkommen auf Paulchens Pilzseite<br/><small class="text-muted">Spannendes und Interessantes aus der Welt der Pilze</small></h3>
+	<img src="./img/bar_small.jpg" class="img-fluid" alt="Responsive image">
+	<p><small>Bild von <a href="https://pixabay.com/de/users/adege-4994132/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2212899">adege</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2212899">Pixabay</a></p>
+  
+    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+
+		<h3>Pilz Fakten</h3>	
+		<div class="row">	
+			<div class="col-4">
+			
+				<div class="list-group" id="list-tab" role="tablist">
+				  <a class="list-group-item list-group-item-action active" id="list-champignon-list" data-toggle="list" href="#list-champignon" role="tab" aria-controls="champignon">Champignon</a>
+				  <a class="list-group-item list-group-item-action" id="list-steinpilz-list" data-toggle="list" href="#list-steinpilz" role="tab" aria-controls="steinpilz">Steinpilz</a>
+				  <a class="list-group-item list-group-item-action" id="list-pfifferling-list" data-toggle="list" href="#list-pfifferling" role="tab" aria-controls="pfifferling">Pfifferling</a>
+				  <a class="list-group-item list-group-item-action" id="list-fliegenpilz-list" data-toggle="list" href="#list-fliegenpilz" role="tab" aria-controls="fliegenpilz">Fliegenpilz</a>
+				</div>
+			</div>
+
+		
+			<div class="col-4">
+				<div class="tab-content" id="nav-tabContent">
+				  <div class="tab-pane fade" id="list-steinpilz" role="tabpanel" aria-labelledby="list-steinpilz-list">
+					<a href="https://de.wikipedia.org/wiki/Gemeiner_Steinpilz">
+						<img src="./img/Steinpilz.jpg" class="img-fluid">
+					</a>
+					<b>Steinpilz</b><br>So lecker zu Semmelknödeln
+				  </div>
+				  <div class="tab-pane fade" id="list-pfifferling" role="tabpanel" aria-labelledby="list-pfifferling-list">
+					<a href="https://de.wikipedia.org/wiki/Echter_Pfifferling">
+						<img src="./img/Pfifferling.jpg" class="img-fluid">
+					</a>
+					<b>Pfifferling</b><br>Als Omlett ein Genuss
+				  </div>
+				  <div class="tab-pane fade" id="list-fliegenpilz" role="tabpanel" aria-labelledby="list-fliegenpilz-list">
+					<a href="https://de.wikipedia.org/wiki/Fliegenpilz">
+						<img src="./img/Fliegenpilz.jpg" class="img-fluid">
+					</a>
+					<b>Fliegenpilz</b><br>Hübsch aber besser die Finger davon lassen
+				  </div>
+				  
+				  <div class="tab-pane fade show active" id="list-champignon" role="tabpanel" aria-labelledby="list-champignon-list">
+					<a href="https://de.wikipedia.org/wiki/Champignons">
+						<img src="./img/Wiesenchampignon.jpg" class="img-fluid">
+					</a>
+					<b>Champignon</b><br>Der Pilz für alle Fälle
+				  </div>
+				</div>
+			</div>		
+		</div>
+	</div>
+	
+	<div class="shadow-sm p-3 mb-5 bg-white rounded">
+		<div class="card">
+			<h5 class="card-header">Impressum
+		</h5>
+			<div class="card-body">
+				<p class="card-text">Paul Pilz<br/>Am Schwammerlweg 12<br/>27749 Delmenhorst</b></p>
+			</div>
+		</div>
+	</div>
+		
+		
+</div>	
+
+
+  </body>
+</html>
